@@ -27,7 +27,7 @@ var (
 	doDiff = flag.Bool("d", false, "display diffs instead of rewriting files")
 
 	options = &imports.Options{
-		TabWidth:  8,
+		TabWidth:  4,
 		TabIndent: true,
 		Comments:  true,
 		Fragment:  true,
